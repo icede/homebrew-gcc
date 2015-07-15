@@ -3,7 +3,7 @@ class InsecureOpenssl < Formula
   homepage "https://openssl.org"
   url "https://www.openssl.org/source/openssl-1.0.2d.tar.gz"
   mirror "https://raw.githubusercontent.com/DomT4/LibreMirror/master/OpenSSL/openssl-1.0.2d.tar.gz"
-  
+  SHA256 "671c36487785628a703374c652ad2cebea45fa920ae5681515df25d9f2c9a8c8"
 
   option :universal
   option "without-check", "Skip build-time tests (not recommended)"
