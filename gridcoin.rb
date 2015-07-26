@@ -15,7 +15,7 @@ class Gridcoin < Formula
   depends_on 'qrencode'
   depends_on 'qt'
 
-  head do
+  stable do
     # patch gridcoinstake.pro, makefile.osx
     patch :DATA
   end
