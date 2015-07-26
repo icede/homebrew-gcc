@@ -1,7 +1,7 @@
 class Gridcoin < Formula
   desc "GridCoin OS X client (GUI and CLI)"
   homepage "http://gridcoin.us"
-  HEAD "https://github.com/gridcoin/Gridcoin-Research.git"
+  head "https://github.com/gridcoin/Gridcoin-Research.git"
   
   option "with-cli", "Also compile the command line client"
   option "without-gui", "Do not compile the graphical client"
@@ -15,7 +15,7 @@ class Gridcoin < Formula
   depends_on 'qrencode'
   depends_on 'qt'
 
-  HEAD do
+  head do
     # patch gridcoinstake.pro, makefile.osx
     patch :DATA
   end
